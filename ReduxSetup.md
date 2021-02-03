@@ -29,10 +29,6 @@ const count = (state = 0, action) => {
     }
     return state;
 };
-
-const elementList = (state = [], action) => {
-    return state;
-};
 ```
 - Here is another that works with an array. Never use .push, always use a spread operator:
 ```
